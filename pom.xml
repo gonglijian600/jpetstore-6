@@ -218,7 +218,7 @@
     <surefire.version>2.21.0</surefire.version>
     <clirr.comparisonVersion>6.0.2</clirr.comparisonVersion>
 
-    <spring.version>5.0.5.RELEASE</spring.version>
+    <spring.version>5.0.6.RELEASE</spring.version>
     <assertj.version>3.9.1</assertj.version>
     <hsqldb.version>2.4.0</hsqldb.version>
   </properties>
@@ -258,21 +258,21 @@
       </activation>
       <properties>
         <tomcat.major-version>9</tomcat.major-version>
-        <tomcat.version>9.0.7</tomcat.version>
+        <tomcat.version>9.0.8</tomcat.version>
       </properties>
     </profile>
     <profile>
       <id>tomcat85</id>
       <properties>
         <tomcat.major-version>8</tomcat.major-version>
-        <tomcat.version>8.5.30</tomcat.version>
+        <tomcat.version>8.5.31</tomcat.version>
       </properties>
     </profile>
     <profile>
       <id>tomcat80</id>
       <properties>
         <tomcat.major-version>8</tomcat.major-version>
-        <tomcat.version>8.0.51</tomcat.version>
+        <tomcat.version>8.0.52</tomcat.version>
       </properties>
     </profile>
     <profile>
@@ -368,7 +368,7 @@
         <jdk>1.7</jdk>
       </activation>
       <properties>
-        <spring.version>4.3.16.RELEASE</spring.version>
+        <spring.version>4.3.17.RELEASE</spring.version>
         <assertj.version>2.9.0</assertj.version>
         <hsqldb.version>2.3.5</hsqldb.version>
       </properties>
